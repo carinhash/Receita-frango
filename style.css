@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+
+}
+
+.group {
+    background-image: url(https://cdn.pixabay.com/photo/2024/08/27/06/53/ai-generated-9000867_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.group1 {
+    background-image: url(https://cdn.pixabay.com/photo/2024/08/27/06/53/ai-generated-9000867_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.group3{
+    background-image: url(https://cdn.pixabay.com/photo/2024/08/27/06/53/ai-generated-9000867_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background-color: #5f4620;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    padding: 70px 0;
+
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.header p {
+    font-size: 1.2 rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 80vh;
+}
+
+.box {
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    text-align: center;
+    border-radius: 18px;
+
+}
+
+.frango {
+    height: 70%;
+
+}
+
+.frango h2 {
+    text-align: center;
+}
+
+.frango1 {
+    line-height: 1.9rem;
+    text-align: justify;
+}
+
+.frango1 h2 {
+    text-align: center;
+}
+
+.frango2 {
+    width: 95%;
+    height: 90%;
+    line-height: 2.0rem;
+    text-align: justify;
+}
+
+.frango2 h2 {
+    text-align: center;
+}
+
+
+.box li {
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+.box p,
+h2,
+h3 {
+    margin-left: 2px;
+}
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 80px;
+}
+
+.parallax1 {
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/09/12/34/mosaic-759625_960_720.jpg);
+}
+
+.parallax2 {
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/09/12/34/mosaic-759625_960_720.jpg);
+}
+
+.parallax3 {
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/09/12/34/mosaic-759625_960_720.jpg);
+}
+
+
+.parallax {
+    height: 60vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nomes {
+    text-align: center;
+    background-color: #00000000;
+    padding: 20px 0;
+
+}
+
+.image {
+    display: flex;
+    width: 86%;
+    gap: 20px;
+}
+
+.frangoi {
+    height: 100%;
+    width: 100%;
+}
+
+@media(max-width:480px) {
+    .header {
+        height: 97vh;
+
+    }
+
+    .header img {
+        height: 250px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 3px;
+        height: 60vh;
+    }
+
+    .group {
+        height: 1400px;
+    }
+
+    .group1 {
+        height: 1800px;
+    }
+    .group3{
+        height: 1000px;
+    }
+
+    .imolho {
+        height: 550px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .pmolho {
+        text-align: center;
+    }
+    .frango1{
+        width: 93%;
+    }
+
+    .frango2{
+        height: 1200px;
+    }
+    .image{
+        height: 900px;
+        flex-direction: column ;
+    }
+
+
+
+}
